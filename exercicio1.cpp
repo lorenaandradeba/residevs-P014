@@ -9,11 +9,17 @@ int main()
 {
     int numero;
 
-    cout << "Insira o número que deseja saber o fatorial: ";
+    cout << "Insira o PRIMEIRO número que deseja saber o fatorial: ";
     cin >> numero;
+    cout << "O fatorial de " << numero << " é:" << calcularFatorial(numero) << endl;
 
-    cout << "O fatorial de " << numero << " é:" << calcularFatorial(numero);
+    cout << "Insira o SEGUNDO número que deseja saber o fatorial: ";
+    cin >> numero;
+    cout << "O fatorial de " << numero << " é:" << calcularFatorial(numero) << endl;
 
+    cout << "Insira o TERCEIRO número que deseja saber o fatorial: ";
+    cin >> numero;
+    cout << "O fatorial de " << numero << " é:" << calcularFatorial(numero) << endl;
     return 0;
 }
 
